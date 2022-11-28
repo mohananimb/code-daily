@@ -15,9 +15,9 @@ const Timer = () => {
   } = useTimer()
   return (
     <div className={styles.parent}>
-      <h1>Countdown</h1>
+      <h1 className={styles.timer__heading}>Countdown</h1>
 
-      <h1>{displayData(timer)}</h1>
+      <h1 className={styles.timer__display}>{displayData(timer)}</h1>
       <div className={styles.countdown}>
         <div className='countdown__hour'>
           <input
