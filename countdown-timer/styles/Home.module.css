@@ -1,0 +1,44 @@
+.parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.countdown {
+  display: flex;
+  gap: 15px;
+}
+
+.countdown > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.countdown > div > label {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.countdown > div > input {
+  /* outline: none;
+  border: none;
+  margin-top: 20px; */
+  /* padding: 10px; */
+}
+
+.button__container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.countdown > div > input[type="number"]::-webkit-inner-spin-button,
+.countdown > div > input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
