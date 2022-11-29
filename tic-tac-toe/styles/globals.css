@@ -1,0 +1,88 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  text-align: center;
+}
+.parent {
+  /* padding: 0.3rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.col {
+  display: flex;
+}
+
+.cell {
+  height: 80px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid whitesmoke;
+  cursor: pointer;
+  background: skyblue;
+  color: white;
+  font-size: 20px;
+}
+
+.container__heading {
+  color: brown;
+}
+
+.container__winner {
+color: chocolate;
+}
+
+.container__button {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background: green;
+  color: white;
+  outline: none;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.container__select {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background: green;
+  color: white;
+  outline: none;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.container__select > option {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background: green;
+  color: white;
+  outline: none;
+  margin: 10px;
+  cursor: pointer;
+}
