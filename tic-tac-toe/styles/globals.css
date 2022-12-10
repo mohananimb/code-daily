@@ -48,7 +48,7 @@ a {
 }
 
 .container__winner {
-color: chocolate;
+  color: chocolate;
 }
 
 .container__button {
@@ -86,5 +86,3 @@ color: chocolate;
   margin: 10px;
   cursor: pointer;
 }
-
-.test{}
